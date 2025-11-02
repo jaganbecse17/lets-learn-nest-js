@@ -16,5 +16,6 @@ private   Users = [
 
   saveUser(user){
     this.Users.push({...user,id:this.Users.length+1})
+    return user
   }
 }
