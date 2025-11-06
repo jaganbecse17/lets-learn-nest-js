@@ -212,7 +212,7 @@
 					]
 				},
 				{
-					"name": "New Request",
+					"name": "Get user Details",
 					"id": "81b95c35-f0ef-4732-a92e-f76c106ec7c6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -257,7 +257,7 @@
 	],
 	"variable": [
 		{
-			"id": "b7ff3eda-f00e-47b2-b1bb-2aaff895b82b",
+			"id": "e162c1d8-52b1-4613-812a-1cc402a63add",
 			"key": "baseUrl",
 			"value": "https://farming-simulator.pstmn.io"
 		}
