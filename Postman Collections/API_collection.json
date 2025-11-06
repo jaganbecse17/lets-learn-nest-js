@@ -219,7 +219,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{user_svc_url}}/user/1"
 					},
 					"response": []
 				}
@@ -257,6 +258,7 @@
 	],
 	"variable": [
 		{
+			"id": "506420f0-d238-49a9-83b0-84a5c5bc9be4",
 			"key": "baseUrl",
 			"value": "https://farming-simulator.pstmn.io"
 		}
