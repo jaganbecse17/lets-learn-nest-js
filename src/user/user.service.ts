@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { UserEntity } from 'src/contracts/user.type';
+import { createNewRecord } from 'src/helpers/entity.helpers';
 import { USERS_LIST } from 'src/mock/user.mock';
 
 @Injectable()
@@ -18,8 +19,7 @@ export class UserService {
   }
 
   saveUser(user: Omit<UserEntity, 'id'>) {
-    USERS_LIST.push({ ...user, id: USERS_LIST.length + 1 });
-    return user;
+    return createNewRecord(USERS_LIST, user);
   }
 
   updateUser(id: number, userData: Omit<UserEntity, 'id'>) {
