@@ -210,6 +210,18 @@
 							"body": "{\n    \"name\": \"Earth\",\n    \"email\": \"earth@milkyway.org\"\n}"
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "81b95c35-f0ef-4732-a92e-f76c106ec7c6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "80642185-f0eb-42d4-a0ee-beadf7c7f24b",
@@ -245,6 +257,7 @@
 	],
 	"variable": [
 		{
+			"id": "b7ff3eda-f00e-47b2-b1bb-2aaff895b82b",
 			"key": "baseUrl",
 			"value": "https://farming-simulator.pstmn.io"
 		}
